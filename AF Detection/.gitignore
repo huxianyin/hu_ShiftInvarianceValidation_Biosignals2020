@@ -1,0 +1,14 @@
+# ignore data
+*.pickle
+data/
+dataset*/
+results*/
+Check*/
+
+# MacOS
+*.DS_Store
+
+#python 
+__pycache__
+.ipynb_checkpoints/
+.python-version
