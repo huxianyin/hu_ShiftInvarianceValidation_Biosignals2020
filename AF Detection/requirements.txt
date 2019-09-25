@@ -81,3 +81,5 @@ Werkzeug==0.15.6
 wfdb==2.2.1
 widgetsnbextension==3.5.1
 wrapt==1.11.2
+torch
+torchvision
