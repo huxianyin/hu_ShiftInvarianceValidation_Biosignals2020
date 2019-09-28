@@ -2,9 +2,8 @@
 *.pickle
 data/
 dataset*/
-results*/
-Check*/
-Animations/
+Result*/
+anims/
 # MacOS
 .DS_Store
 
