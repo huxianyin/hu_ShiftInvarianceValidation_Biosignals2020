@@ -10,6 +10,12 @@
 ## Results
 ![result_1_layer_cnn](https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_1.png)
 
+![(Baseline) Using Max Pooling]
+(https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/max.gif)
+
+![(Maxblur) Using Maxblur Pooling with filter size = 7]
+(https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/maxblur-7.gif)
+
 ## How to run 
 
 
