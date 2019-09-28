@@ -10,11 +10,11 @@
 ## Results
 
 ### Evaluate using Accuracy and Consistency
-<figure class="third">
+<center class="half">
 	<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_1.png" width="200" height="200" />
 	<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_2.png" width="200" height="200" />
 	<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_3.png" width="200" height="200" />
-</figure>
+</center>
 
 
 ### Examples
