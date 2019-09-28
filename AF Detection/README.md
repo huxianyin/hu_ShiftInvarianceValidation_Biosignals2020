@@ -9,14 +9,17 @@
 
 ## Results
 
-- Evaluate using Accuracy and Consistency
-	![result_1_layer_cnn](https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_1.png)
+### Evaluate using Accuracy and Consistency
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_1.png" width="200" height="400" />
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_2.png" width="200" height="400" />
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_3.png" width="200" height="400" />
 
-- Examples
+
+### Examples
 	- Confidence of model prediction on Sfhiting of RRI Segegment(No.[123]) in record07162
 	![[result_123]](https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/samp.123.png)
 
-- Animated Examples
+### Animated Examples
 	- Baseline (using max pooling)
 	![[result_max]](https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/max.gif)
 	
