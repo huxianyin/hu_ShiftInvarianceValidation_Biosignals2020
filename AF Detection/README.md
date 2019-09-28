@@ -1,7 +1,7 @@
 # Validate on AF Detection from ECG
 
 ## What is AF Detection
-- We used MIT-BIH Atrial fibrillation (AF) Dataset 
+- We used MIT-BIH Atrial fibrillation (AF) Dataset
 - The dataset contains 23 records of 10 hour ECG with heart beat annotation and AF annotation
 - 100 RRI as a Segment
 - Do 2-class classification Task (Normal / AF)
@@ -10,9 +10,9 @@
 ## Results
 
 ### Evaluate using Accuracy and Consistency
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_1.png" width="200" height="400" />
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_2.png" width="200" height="400" />
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_3.png" width="200" height="400" />
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_1.png" width="200" height="200" />
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_2.png" width="200" height="200" />
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_3.png" width="200" height="200" />
 
 
 ### Examples
@@ -22,11 +22,9 @@
 ### Animated Examples
 	- Baseline (using max pooling)
 	![[result_max]](https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/max.gif)
-	
+
 	- Maxblur (using maxblur pooling with filter size=7)
 	![[result_maxblur-7]](https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/maxblur-7.gif)
 
 
-## How to run 
-
-
+## How to run
