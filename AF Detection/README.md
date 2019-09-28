@@ -17,7 +17,7 @@
 
 ### Examples
 - Confidence of model prediction on Sfhiting of RRI Segegment(No.123) in record07162
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/samp.123.png" width="600" height="200" />
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/samp.123.png" width="800" height="200" />
 
 ### Animated Examples
 - Baseline (using max pooling)
