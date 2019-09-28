@@ -10,7 +10,7 @@
 ## Results
 
 ### Evaluate using Accuracy and Consistency
-<center class="half">
+<center class="thrid">
 	<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_1.png" width="200" height="200" />
 	<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_2.png" width="200" height="200" />
 	<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/result_cnn_3.png" width="200" height="200" />
@@ -18,15 +18,15 @@
 
 
 ### Examples
-	- Confidence of model prediction on Sfhiting of RRI Segegment(No.[123]) in record07162
-	![[result_123]](https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/samp.123.png)
+- Confidence of model prediction on Sfhiting of RRI Segegment(No.[123]) in record07162
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/samp123.png" width="600" height="200" />
 
 ### Animated Examples
-	- Baseline (using max pooling)
-	![[result_max]](https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/max.gif)
+- Baseline (using max pooling)
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/max.gif" width="600" height="200" />
 
-	- Maxblur (using maxblur pooling with filter size=7)
-	![[result_maxblur-7]](https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/maxblur-7.gif)
+- Maxblur (using maxblur pooling with filter size=7)
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/maxblur-7.gif" width="600" height="200" />
 
 
 ## How to run
