@@ -17,10 +17,10 @@ from keras.utils import plot_model
 from keras import backend as K
 from keras.layers import Layer
 
-dataset_root = "./dataset_RRI/"
+
 segment_len = 100
 fs = 250
-dataset_files = [os.path.join(dataset_root,i) for i in os.listdir(dataset_root) if "cross" in i]
+
 
 def plot_cmx(true,pred):
     cm = confusion_matrix(np.argmax(true,axis=1), np.argmax(pred,axis=1))
@@ -35,7 +35,7 @@ def plot_cmx(true,pred):
     plt.ylim(len(cm),0)
     plt.tight_layout()
 
-def load_dataset(cross_idx):
+def load_dataset(cross_idx,dataset_files):
     file = dataset_files[cross_idx]
     with open(file,"rb") as f:
         dataset = pickle.load(f)
