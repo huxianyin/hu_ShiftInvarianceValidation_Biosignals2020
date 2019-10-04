@@ -38,3 +38,10 @@
 | --- | --- |--- |
 | 5,7 | <img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-5%20vs%20max.png" width="260" height="200"/> |<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-7%20vs%20max.png" width="260" height="200"/>|
 | 4,6 | <img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-4%20vs%20max.png" width="260" height="200"/> |<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-6%20vs%20max.png" width="260" height="200"/>|
+
+- baseline: avgerage pooling
+
+| filter size | Improvement1 | Improvement2 |
+| --- | --- |--- |
+| 5,7 | <img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Davg/maxblur-5%20vs%20max.png" width="260" height="200"/> |<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Davg/maxblur-7%20vs%20max.png" width="260" height="200"/>|
+| 4,6 | <img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Davg/maxblur-4%20vs%20max.png" width="260" height="200"/> |<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Davg/maxblur-6%20vs%20max.png" width="260" height="200"/>|
