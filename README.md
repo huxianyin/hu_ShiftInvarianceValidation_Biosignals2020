@@ -35,4 +35,4 @@
 
 | filter size | baseline = max | baseline = avg |
 | --- | --- |--- |
-| 7 | <img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-5%20vs%20max.png" width="260" height="200"/> |<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Davg/maxblur-7%20vs%20avg.png" width="260" height="200"/>|
+| 7 | <img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-7%20vs%20max.png" width="260" height="200"/> |<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Davg/maxblur-7%20vs%20avg.png" width="260" height="200"/>|
