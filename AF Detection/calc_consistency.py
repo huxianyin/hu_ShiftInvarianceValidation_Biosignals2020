@@ -2,8 +2,10 @@ import os
 import sys
 import wfdb
 import pickle
+import itertools
 import pandas as pd
 import numpy as np
+from scipy.special import comb
 from keras.utils import to_categorical
 from tqdm import tqdm_notebook
 from sklearn.preprocessing import MinMaxScaler
@@ -29,24 +31,32 @@ def int2label(label):
     elif label==1:
         return "AF"
 
-def calc_consistency_once(X,label,seg_idx,model):
+def consistency_calculation(prediction,num_class=2):
+    prediction = list(prediction)
+    combos = list(itertools.combinations(prediction, 2))
+    n_list = [prediction.count(i) for i in range(num_class)]
+    true_list = [comb(i, 2) for i in n_list]
+    n_true = sum(true_list)
+    n_all = comb(len(prediction), 2)
+    return n_true/n_all
+
+
+
+def calc_consistency_once(X,seg_idx,model):
     continue_seg = np.concatenate( [X[seg_idx],X[seg_idx+1]],axis=0)
     sliding_win_start = 1
     sliding_win_end = sliding_win_start+win_len
     step = 1
-    consistency_list = [] 
     slided_data = []
     while(sliding_win_end<len(continue_seg)):
         data = continue_seg[sliding_win_start:sliding_win_end,:]
         slided_data.append(data)
         sliding_win_start += step
         sliding_win_end += step
-        
     slided_data = np.array(slided_data)
-    logits = np.argmax(model.predict(slided_data),axis=1)
-    labels = [label for i in range(len(logits))]
-    consistency_list = np.array(logits==label,dtype=np.float32)
-    return consistency_list
+    predictions = np.argmax(model.predict(slided_data),axis=1)
+    consis = consistency_calculation(predictions,num_class=2)
+    return [consis]
 
 def calc_consistency(X,y,start,end,model):
     consistency = []
@@ -64,7 +74,7 @@ def calc_consistency(X,y,start,end,model):
         label = np.argmax(y[seg_idx])
         next_label = np.argmax(y[seg_idx+1])
         if not (seg_end == next_seg_start and label==next_label):continue
-        consistency_list =  calc_consistency_once(X,label,seg_idx,model)
+        consistency_list =  calc_consistency_once(X,seg_idx,model)
         consistency.append(consistency_list)
         
         if label == 0:

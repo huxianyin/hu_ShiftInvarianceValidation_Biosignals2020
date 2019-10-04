@@ -168,6 +168,7 @@ def cal_cross_validated(df,cross=5):
         mean_loss = np.mean(part_df["loss"])
         mean_acc = np.mean(part_df["accuracy"])
         mean_consis_b = np.mean(part_df["consis_b"])
+        consis_b_std = np.std(part_df["consis_b"])
         mean_consis_ub = np.mean(part_df["consis_ub"])
         mean_consis_n = np.mean(part_df["consis_n"])
         mean_consis_a = np.mean(part_df["consis_a"])
@@ -176,9 +177,11 @@ def cal_cross_validated(df,cross=5):
         pool_factor = list(part_df["pool_factor"])[0]
         pool_type = list(part_df["pool_type"])[0]
         marker = list(part_df["marker"])[0]
+        with_aug = list(part_df["with_augment"])[0]
+        robustness = list(part_df["robustness"])[0]
 
-        row = pd.Series(data=[pool_factor,pool_type,marker,mean_loss,mean_acc,mean_consis_b,mean_consis_ub,mean_consis_n,mean_consis_a,mean_consis_a_s],
-                       index=["pool_factor","pool_type","marker","loss","accuracy","consis_b","consis_ub","consis_n","consis_a","consis_a_s"])
+        row = pd.Series(data=[pool_factor,pool_type,marker,mean_loss,mean_acc,mean_consis_b,consis_b_std,mean_consis_ub,mean_consis_n,mean_consis_a,mean_consis_a_s,robustness,with_aug],
+                       index=["pool_factor","pool_type","marker","loss","accuracy","consis_b","consis_b_std","consis_ub","consis_n","consis_a","consis_a_s","robustness","with_augment"])
         
         result_df.append(row)
     tmp = pd.DataFrame(result_df)
