@@ -13,9 +13,10 @@
 
 - Evaluate using Accuracy and Consistency
 <div align="center">
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/Scatter_acc-consis/with%20aug/1CNN_w.png" width="200" height="250"/>
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/Scatter_acc-consis/with%20aug/2CNN_w.png" width="200" height="250"/>
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/Scatter_acc-consis/with%20aug/3CNN_w.png" width="200" height="250"/>
+with Data Augment
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/Scatter_acc-consis/with%20aug/1CNN_w.png" width="240" height="250"/>
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/Scatter_acc-consis/with%20aug/2CNN_w.png" width="240" height="250"/>
+<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/Scatter_acc-consis/with%20aug/3CNN_w.png" width="240" height="250"/>
 </div>
 
 
