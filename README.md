@@ -34,8 +34,7 @@
 #### Improvements of maxblur on non-augemented data in CNN with different number of pooling layers
 - baseline: max pooling
 
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-3%20vs%20max.png" width="260" height="200"/>
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-4%20vs%20max.png" width="260" height="200"/>
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-5%20vs%20max.png" width="260" height="200"/>
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-6%20vs%20max.png" width="260" height="200"/>
-<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-7%20vs%20max.png" width="260" height="200"/>
+| filter size | Improvement1 | Improvement2 |
+| --- | --- |--- |
+| 5,7 | <img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-5%20vs%20max.png" width="260" height="200"/> |<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-7%20vs%20max.png" width="260" height="200"/>|
+| 4,6 | <img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-4%20vs%20max.png" width="260" height="200"/> |<img src="https://github.com/heilab/hu_ShiftInvarianceValidation_Biosignals_2019/blob/master/AF%20Detection/figs/compare_improv/baseline%3Dmax/maxblur-6%20vs%20max.png" width="260" height="200"/>|
