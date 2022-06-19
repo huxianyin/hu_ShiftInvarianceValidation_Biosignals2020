@@ -1,4 +1,6 @@
-# hu_ShiftInvarianceValidation_Biosignals_2019
+# hu_ShiftInvarianceValidation_Biosignals2020
+
+[Best Paper Award](https://biosignals.scitevents.org/PreviousAwards.aspx?y=2021) in Biosignals2020
 
 ## Task1: Validate on AF Detection from ECG
 
