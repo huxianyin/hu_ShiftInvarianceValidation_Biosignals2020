@@ -1,6 +1,7 @@
 # hu_ShiftInvarianceValidation_Biosignals2020
 
-- Validation of the effect of max-pooling method for improving temporal shift-invariance of Convolutional Neural Network (CNN) in bio-signals classification tasks.
+- Validation of the effect of maxblur pooling method for improving temporal shift-invariance of Convolutional Neural Network (CNN) in bio-signals classification tasks.
+- About maxblur pooling, please refer to [Making Convolutional Networks Shift-Invariant Again](https://richzhang.github.io/antialiased-cnns/)
 - [Paper](https://www.insticc.org/node/TechnicalProgram/biostec/2020/presentationDetails/88799)
 - [Best Paper Award](https://biosignals.scitevents.org/PreviousAwards.aspx?y=2021) in Biosignals2020
 
