@@ -1,6 +1,8 @@
 # hu_ShiftInvarianceValidation_Biosignals2020
 
-[Best Paper Award](https://biosignals.scitevents.org/PreviousAwards.aspx?y=2021) in Biosignals2020
+- Validation of the effect of max-pooling method for improving temporal shift-invariance of Convolutional Neural Network (CNN) in bio-signals classification tasks.
+- [Paper](https://www.insticc.org/node/TechnicalProgram/biostec/2020/presentationDetails/88799)
+- [Best Paper Award](https://biosignals.scitevents.org/PreviousAwards.aspx?y=2021) in Biosignals2020
 
 ## Task1: Validate on AF Detection from ECG
 
