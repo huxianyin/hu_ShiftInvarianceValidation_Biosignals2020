@@ -5,6 +5,10 @@
 - [Paper](https://www.insticc.org/node/TechnicalProgram/biostec/2020/presentationDetails/88799)
 - [Best Paper Award](https://biosignals.scitevents.org/PreviousAwards.aspx?y=2021) in Biosignals2020
 
+| Max Pooling | Maxblur Pooling|
+| --- | --- |
+| <img src="https://user-images.githubusercontent.com/34026599/174485379-ff9400a7-45f1-48d3-afd7-3bd6b3a9faac.gif" width="400" height="133" />| <img src="https://user-images.githubusercontent.com/34026599/174485417-c2786373-5984-4f28-b074-563882e01148.gif" width="400" height="133" /> |
+
 ## Task1: Validate on AF Detection from ECG
 
 ### What is AF Detection
